@@ -49,6 +49,7 @@ static void InitializeFlipper(UIApplication *application) {
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
+  [rootView setValue:@true forKey:@"heapIgnore"];
   return YES;
 }
 
