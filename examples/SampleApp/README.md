@@ -12,7 +12,7 @@
 - Clone the project
 
 ```bash
-   git clone https://github.com/GetStream/stream-chat-react-native.git
+   git clone https://github.com/nikolaydevico/stream-chat-react-native.git
    cd stream-chat-react-native
    make
    cd examples/SampleApp
